@@ -1867,7 +1867,7 @@ body:not(.tt-boxed) .page-header-inner,
 	}
 	
 	#page-header.ph-bg-image .ph-image2 img {
-		object-position: 0% 50%;
+		object-position: 25% 50%;
 	}
 }
 
