@@ -1849,7 +1849,7 @@ body:not(.tt-boxed) .page-header-inner,
 	height: 100%;
 }
 
-#page-header.ph-bg-image .ph-image img {
+#page-header.ph-bg-image .ph-image img, #page-header.ph-bg-image .ph-image2 img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -1864,7 +1864,11 @@ body:not(.tt-boxed) .page-header-inner,
 @media (max-width: 1024px) {
 	#page-header.ph-bg-image .ph-image img {
 		object-position: 80% 50%;
-	}	
+	}
+	
+	#page-header.ph-bg-image .ph-image2 img {
+		object-position: 0% 50%;
+	}
 }
 
 
