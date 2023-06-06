@@ -788,12 +788,10 @@
 								* Use class "tt-form-sm" or "tt-form-lg" to change form size (no class = default size).
 								* Use class "tt-hide-labels" to to hide labels.
 								-->
-								<form id="tt-contact-form" class="tt-form-lg tt-form-minimal tt-hide-labels anim-fadeinup">
+								<form action="https://formspree.io/f/mvonjbek"
+								method="POST" id="tt-contact-form" class="tt-form-lg tt-form-minimal tt-hide-labels anim-fadeinup">
 
 									<!-- Begin hidden required fields (https://github.com/agragregra/uniMail) -->
-									<input type="hidden" name="project_name" value="sableetlumiere.com"> <!-- Change value to your site name -->
-											<input type="hidden" name="admin_email" value="philgirier@yahoo.fr"> <!-- Change value to your valid email address (where a message will be sent) -->
-											<input type="hidden" name="form_subject" value="Message depuis le site sableetlumiere.com">  <!-- Change value to your own message subject -->
 									<!-- End Hidden Required Fields -->
 
 									<div class="tt-row">
@@ -839,7 +837,7 @@
 									</div>
 
 									<div class="tt-btn tt-btn-light-outline">
-										<button type="submit" data-hover="Envoyer">Envoyer</button>
+										<button type="submit" data-hover="Send Message">Envoyer le message</button>
 									</div>
 								</form>
 								<!-- End form -->
@@ -946,6 +944,25 @@
 		<!-- Theme master JS -->
 		<script src="assets/js/theme.js"></script>
 
+			<!-- formspree message sent alert -->
+			<script>
+				var form = document.getElementById('tt-contact-form');
+				var alertMessage = document.getElementById('alert-message');
+			  
+				form.addEventListener('submit', function(event) {
+				  event.preventDefault();
+			  
+				  alertMessage.textContent = 'Message envoyé! Merci de votre message. Nous vous recontacterons au plus vite. ';
+				  alertMessage.style.display = 'block';
+			  
+				  form.reset();
+			  
+				  // Optionally, hide the alert after a certain time
+				  setTimeout(function() {
+					alertMessage.style.display = 'none';
+				  }, 3000);
+				});
+			  </script>
 
 
 	</body>
