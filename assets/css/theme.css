@@ -1872,7 +1872,7 @@ body:not(.tt-boxed) .page-header-inner,
 ======================= */
 .ph-caption {
 	position: relative;
-	bottom:50px;
+	bottom:250px;
 }
 
 @media (max-width: 1024px) {
