@@ -1662,7 +1662,7 @@ body:not(.tt-boxed) .page-header-inner,
 	/* If page header image does not exist or project info list exist */
 	body:not(.ph-image-on) #page-header .page-header-inner,
 	body.ph-image-on.ph-bg-image-on #page-header:not(.project-info-list-on) .page-header-inner {
-		padding-top: 180px;
+		padding-top: 380px;
 		padding-bottom: 180px;
 	}
 }
