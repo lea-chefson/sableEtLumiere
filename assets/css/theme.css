@@ -1651,7 +1651,7 @@ body:not(.tt-boxed) .page-header-inner,
 }
 @media (max-width: 1920px) {
 	.page-header-inner {
-		padding-top: 250px;
+		padding-top: 20vw;
 		padding-bottom: 140px;
 	}
 	body.ph-image-on #page-header:not(.project-info-list-on) .page-header-inner {
@@ -1674,7 +1674,7 @@ body:not(.tt-boxed) .page-header-inner,
 }
 @media (max-width: 1024px) {
 	#page-header:not(.project-info-list-on) .page-header-inner {
-		padding-top: 250px;
+		padding-top: 20vw;
 		padding-bottom: 250px;
 	}
 	body:not(.tt-boxed) .page-header-inner, 
@@ -1687,13 +1687,13 @@ body:not(.tt-boxed) .page-header-inner,
 	.page-header-inner,
 	body:not(.ph-image-on) #page-header .page-header-inner,
 	body.ph-image-on.ph-bg-image-on #page-header:not(.project-info-list-on) .page-header-inner {
-		padding-top: 200px;
+		padding-top: 20vw;
 		padding-bottom: 80px;
 	}
 }
 @media (max-width: 540px) {
 	body.ph-image-on #page-header:not(.project-info-list-on) .page-header-inner {
-		padding-top: 240px;
+		padding-top: 20vw;
 		padding-bottom: 40vw;
 	}
 }
@@ -1877,7 +1877,7 @@ body:not(.tt-boxed) .page-header-inner,
 ======================= */
 .ph-caption {
 	position: relative;
-	bottom:250px;
+	bottom:20vw;
 }
 
 @media (max-width: 1024px) {
