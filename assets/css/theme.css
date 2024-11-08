@@ -1872,11 +1872,7 @@ body:not(.tt-boxed) .page-header-inner,
 ======================= */
 .ph-caption {
 	position: relative;
-<<<<<<< HEAD
-	bottom:350px;
-=======
-	bottom:250px;
->>>>>>> parent of aa0a7e6 (Update theme.css fix title with button)
+	bottom:50px;
 }
 
 @media (max-width: 1024px) {
