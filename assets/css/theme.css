@@ -1651,7 +1651,7 @@ body:not(.tt-boxed) .page-header-inner,
 }
 @media (max-width: 1920px) {
 	.page-header-inner {
-		padding-top: 20vw;
+		padding-top: 250px;
 		padding-bottom: 140px;
 	}
 	body.ph-image-on #page-header:not(.project-info-list-on) .page-header-inner {
@@ -1674,26 +1674,21 @@ body:not(.tt-boxed) .page-header-inner,
 }
 @media (max-width: 1024px) {
 	#page-header:not(.project-info-list-on) .page-header-inner {
-		padding-top: 350px;
+		padding-top: 250px;
 		padding-bottom: 250px;
 	}
 	body:not(.tt-boxed) .page-header-inner, 
-	.page-header-inner:not(.tt-wrap) {
-		padding-left: 5%;
-		padding-right: 5%;
-	}
-}
-@media (max-width: 768px) {
+@@ -1687,13 +1687,13 @@
 	.page-header-inner,
 	body:not(.ph-image-on) #page-header .page-header-inner,
 	body.ph-image-on.ph-bg-image-on #page-header:not(.project-info-list-on) .page-header-inner {
-		padding-top: 350px;
+		padding-top: 200px;
 		padding-bottom: 80px;
 	}
 }
 @media (max-width: 540px) {
 	body.ph-image-on #page-header:not(.project-info-list-on) .page-header-inner {
-		padding-top: 350px;
+		padding-top: 240px;
 		padding-bottom: 40vw;
 	}
 }
@@ -1882,7 +1877,7 @@ body:not(.tt-boxed) .page-header-inner,
 
 @media (max-width: 1024px) {
 	.ph-caption {
-		bottom:50px;
+		bottom:250px;
 	}
 }
 
